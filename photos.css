@@ -1,0 +1,19 @@
+.image {
+	height: 600px;
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	background-size: cover;
+	background-position: center center;
+}
+ 
+p {
+	font-family: Open Sans;
+	margin-left: 1.66%;
+	font-size:23px;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-bottom: 3px solid #F1F1F1;
+	width: 30%;
+	padding-bottom: 20px;
+}

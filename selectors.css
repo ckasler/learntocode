@@ -1,0 +1,42 @@
+/*Element*/
+li {
+
+}
+
+/*Class*/
+.hello {
+
+}
+
+/*ID*/
+#name {
+
+}
+
+/*Star*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant -- In this example, we we are selecting all anchor (<a>) tags that are inside of an li (list item)*/
+li a {
+	color: red;
+}
+
+/*Adjacent - will let us select elements that come after another element. 
+In this example, we're selecting all UL's that come after an H4*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute - a way to select elements based off of any attribute. 
+In this example, we're changing all href items to google.com to have a background of blue*/
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type
+If I want to select every __th item on the page, such as the third li (list item) in every group on the page*/
+li:nth-of-type(even){
+	background: purple;
+}

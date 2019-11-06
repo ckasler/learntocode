@@ -1,0 +1,17 @@
+h1 {
+	color: aquamarine;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style:solid;*/
+	border: 5px solid purple;
+}
+
+h2 {
+	background: orange;
+}
+body {
+	background: pink;
+	/*background: url(https://images.unsplash.com/photo-1517757910079-f57fd7f49a91?ixlib=rb-1.2.1&w=1000&q=80);
+	background-repeat: no repeat;
+	background-size: cover;*/
+}
